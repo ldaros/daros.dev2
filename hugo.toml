@@ -2,3 +2,19 @@ baseURL = 'https://daros.dev/'
 languageCode = 'en-us'
 title = 'daros.dev'
 theme = 'paper'
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'ldaros'
+  linkedin = 'darosluan'
+
+  # home page profile
+  name = 'Luan Daros'
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
