@@ -4,17 +4,21 @@ title = 'daros.dev'
 theme = 'paper'
 
 [params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
-
   # header social icons
   github = 'ldaros'
   linkedin = 'darosluan'
 
   # home page profile
   name = 'Luan Daros'
+  bio = 'Software Engineer, Hobbyist Game Developer, and Open Source Enthusiast'
 
   # misc
   disableHLJS = true                        # disable highlight.js
   disablePostNavigation = true              # disable post navigation
   monoDarkIcon = true                       # show monochrome dark mode icon
+
+[deployment]
+
+[[deployment.targets]]
+name = "production"
+URL = "s3://daros.dev-deployment?region=us-east-1"
