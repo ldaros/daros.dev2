@@ -1,0 +1,4 @@
+baseURL = 'https://daros.dev/'
+languageCode = 'en-us'
+title = 'daros.dev'
+theme = 'paper'
